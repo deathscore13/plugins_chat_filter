@@ -57,7 +57,7 @@ public void OnPluginStart()
 
         kv.JumpToKey("2", true);
         {
-            kv.SetString("pattern", "(?<=\\W|^)(б+л+я+|с+у+к+а*|п+и+з+д+е+ц+)(?=\\W|$)");
+            kv.SetString("pattern", "(?<=\\W|^)(б+л+я|с+у+к+а*|п+и+з+д+е+ц)(?=\\W|$)");
             kv.SetString("flags", "1,9");
             kv.SetString("match", "1");
         }
