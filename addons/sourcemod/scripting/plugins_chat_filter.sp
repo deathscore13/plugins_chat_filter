@@ -2,8 +2,8 @@
 #include <macros>
 #include <regex>
 
-#define REGEX_MAXLEN        256     /**< Максимальный размер регулярных выражений */
-#define REGEX_MAXLEN_CON    "256"   /**< Максимальный размер регулярных выражений (строка) */
+#define REGEX_MAXLEN        512     /**< Максимальный размер регулярных выражений */
+#define REGEX_MAXLEN_CON    "512"   /**< Максимальный размер регулярных выражений (строка) */
 
 #define FLAG_NONE           0   /**< No flags */
 #define FLAG_CASELESS       1   /**< Ignore Case */
